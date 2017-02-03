@@ -20,6 +20,10 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func btnTest(_ sender: Any) {
+        lblText.text = "Det fungerar"
+    }
 
+    @IBOutlet weak var lblText: UILabel!
 }
 
