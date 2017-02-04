@@ -21,7 +21,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func btnTest(_ sender: Any) {
-        lblText.text = "Det fungerar knappt"
+        lblText.text = "Det fungerar från MacMini"
     }
 
     @IBOutlet weak var lblText: UILabel!
